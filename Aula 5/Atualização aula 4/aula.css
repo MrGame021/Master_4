@@ -1,0 +1,24 @@
+body{
+    margin: 50px;
+    color: #ebebeb;
+    background-color: #000000af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: monospace;
+
+    .borda{
+        border: 5px solid #0000007c;
+        border-radius: 16px;
+        padding: 40px;
+        align-self: center;
+        font-family: monospace;
+    }
+
+    .form{
+        display: flex;
+        align-content: baseline;
+        font-family: monospace;
+    }
+}
