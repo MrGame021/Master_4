@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 50px;
+    .corpoP{
+        width: 281px;
+        \border: 5px solid black;
+        h1{
+            text-align: center;
+        }
+        form{
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            flex-direction: column;
+            small{
+                width: 90%;
+            }
+            input{
+                \border: 3px solid red;
+                width: 90%;
+                margin-bottom: 2.5%;
+            }
+            select{
+                width: 90%;
+            }
+        }
+    }
+}
